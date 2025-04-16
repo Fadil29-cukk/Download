@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebab Krangkeng Mbak Oom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f4ea;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #388e3c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .menu, .form-pesan {
+      padding: 20px;
+    }
+    .menu-item {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    button {
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kebab Krangkeng Mbak Oom</h1>
+    <p>Lezat, hangat, dan bikin nagih!</p>
+  </header>  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#pesan">Pesan Sekarang</a>
+    <a href="https://wa.me/6281234567890" target="_blank">Hubungi via WhatsApp</a>
+  </nav>  <section id="menu" class="menu">
+    <h2>Menu Kebab</h2>
+    <div class="menu-item">
+      <h3>sosis</h3>
+      <p>Kebab dengan isi sosis yang tidak kalah enak.</p>
+      <p>Rp 3.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Kebab ayam</h3>
+      <p>Kebab dengan isi berupa ayam yang sangat enak dan gurih.</p>
+      <p>Rp 4.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Kebab ayam sosis</h3>
+      <p>Kebab dengan perpaduan antara daging ayam dan sosis.</p>
+      <p>Rp 5.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Kebab ayam sosis spesial</h3>
+      <p>Kebab dengan perpaduan antara daging ayam dan sosis yang lebih spesial.</p>
+      <p>Rp 7.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Kebab jumbo</h3>
+      <p>Kebab dengan perpaduan antara daging ayam dan sosis ukuran lebih besar.</p>
+      <p>Rp 10.000</p>
+    </div>
+  </section>  <section id="pesan" class="form-pesan">
+    <h2>Form Pemesanan</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="nama" placeholder="Nama Anda" required>
+      <input type="tel" name="telepon" placeholder="Nomor WhatsApp" required>
+      <textarea name="pesanan" placeholder="Tulis pesanan Anda di sini..." required></textarea>
+      <button type="submit">Kirim Pesanan</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Kebab Krangkeng Mbak Oom</p>
+  </footer>
+</body>
+</html>
